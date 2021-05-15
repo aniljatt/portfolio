@@ -1,0 +1,94 @@
+body{
+    background-size: auto;
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+    color: rgb(211, 211, 211);
+    /* font-family: serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: rgb(31, 28, 28); */
+    background-image: url('../images/josh-rose-trYl7JYATH0-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat,no-repeat;
+    position: relative;
+    background-color: #cccccc;
+    height: 500px;
+}
+
+.navigation{
+  display: flex;
+  flex-direction: row;
+ 
+  align-items: center;
+  height: 50px;
+  
+  margin: 10px;
+  color: white;
+  /* position: fixed; */
+  box-shadow: 0 0 2px black;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+}
+
+.nav1{
+  /* font-family: serif; */
+  color: bisque;
+  font-size: 200%;
+  flex-basis: 20%;
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+  background-color: rgb(63, 87, 97);
+  border-radius: 5px;
+}
+.nav2,.nav3,.nav4,.nav5,.nav6{
+  flex-basis: 10%;
+  font-size: 20px;
+  padding-left: 1vw;
+  /* align-items: center; */
+  text-decoration: none;
+  color: white;
+  text-align: center;
+
+}
+
+.contain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+  /* border: 1px solid red; */
+}
+
+
+
+.bonjour{
+  text-align: center;
+  margin: auto;
+  font-size: 600%;
+  /* border: 1px solid red; */
+  width: 50%;
+}
+
+.info{
+  font-size: 20px;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
